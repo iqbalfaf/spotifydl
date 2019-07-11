@@ -6,6 +6,13 @@ if which python >/dev/null; then
     sleep 1
     exit
 fi
+if which ffmpeg >/dev/null; then
+    echo ""
+    else
+    echo "ffmpeg tidak di temukan, silahkan jalankankan setup.sh terlebih dahulu"
+    sleep 1
+    exit
+fi
 if which spotdl >/dev/null; then
     else
     echo "script tidak di temukan, silahkan jalankankan setup.sh terlebih dahulu"
