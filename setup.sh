@@ -33,7 +33,7 @@ if which ffmpeg >/dev/null; then
     else 
     echo "ffmpeg not found"
     echo "installing ffmpeg..."
-    apt install ffmpeg -y /dev/null 2>&1
+    apt install ffmpeg -y > /dev/null 2>&1
 fi
 sleep 1
 echo ""
