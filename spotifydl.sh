@@ -36,9 +36,9 @@ Silahkan pilih:
     4. Download list file
     0. Keluar
 "
-read -p "Masukan Pilihan [0-3] > "
+read -p "Masukan Pilihan [0-4] > "
 
-if [[ $REPLY =~ ^[0-3]$ ]]; then
+if [[ $REPLY =~ ^[0-4]$ ]]; then
 	if [[ $REPLY == 0 ]]; then
 		echo "Program berhenti."
 		exit
