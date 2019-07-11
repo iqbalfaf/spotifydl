@@ -14,6 +14,7 @@ if which ffmpeg >/dev/null; then
     exit
 fi
 if which spotdl >/dev/null; then
+    echo ""
     else
     echo "script tidak di temukan, silahkan jalankankan setup.sh terlebih dahulu"
     sleep 1
