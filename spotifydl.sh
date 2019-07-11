@@ -61,8 +61,11 @@ if [[ $REPLY =~ ^[0-4]$ ]]; then
 		spotifydl
 	fi
     if [[ $REPLY == 4 ]]; then
-		read -p "Silahkan masukan letak file list txt : " link
+                echo " di bawah ini file nya "
+                cd
+		read -p "Silahkan masukan nama file list txt : " link
         read -p "Masukan nama folder untuk hasil download : " fdl
+                 echo " OTW Download mamank "
 		$dl --list $link -f $fdl
 		spotifydl
 	fi
